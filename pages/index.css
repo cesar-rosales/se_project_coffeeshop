@@ -37,7 +37,7 @@
   font-weight: normal;
 }
 
-.header_span-accent {
+.header__title--accent {
   color: #3f96f3;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
