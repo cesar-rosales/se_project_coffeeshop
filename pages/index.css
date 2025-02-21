@@ -145,14 +145,14 @@
   line-height: 30px;
 }
 
-.reservetion {
+.reservation {
   padding: 100px 0 120px;
   justify-content: space-between;
   background: #d9e7ff url(../images/background_reservation.svg) center / cover
     no-repeat;
 }
 
-.reservetion__title {
+.reservation__title {
   margin: 0 0 80px;
   text-align: center;
   font-family: Inter, Arial, sans-serif;
