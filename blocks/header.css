@@ -5,6 +5,8 @@
   flex-direction: column;
   height: 800px;
   background: center / cover no-repeat #fff url(../images/background_header.svg);
+  z-index: 1;
+  box-sizing: border-box;
 }
 .header__title {
   max-width: 729px;
@@ -28,7 +30,7 @@
   font-weight: normal;
 }
 
-.header__title--accent {
+.header__title-accent {
   color: #3f96f3;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
@@ -44,6 +46,7 @@
   position: absolute;
   top: 124px;
   right: 5px;
+  z-index: -1;
 }
 
 .header__footer {

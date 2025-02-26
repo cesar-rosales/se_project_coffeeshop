@@ -5,9 +5,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-position: center;
 }
 
-.menu_title {
+.menu__title {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -25,6 +26,7 @@
   line-height: 30px;
   margin: 0 0 100px;
   max-width: 780px;
+  text-align: center;
 }
 
 .menu__cards {
